@@ -60,7 +60,7 @@ tournament = Bracket(teamList)
 for game in tournament:
 	winner = simulate(game)
 	tournament.updateBracket(game, winner)
-	input("")
+	print()
 
 # This code can be ran after the tournament has been simulated to 
 # view it again
