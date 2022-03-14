@@ -1,0 +1,1 @@
+A little program to fill out my bracket for the 2022 NCAA Tournament. This is for a league with an upset bonus, so I'm using Elo to calculate an expected value for points from each matchup, and choosing the team with the highest EV.
