@@ -2,6 +2,8 @@
 
 A little program to fill out my bracket for the 2022 NCAA Tournament. This is for a league with an upset bonus, so I'm using Elo to calculate an expected value for points from each matchup, and choosing the team with the highest EV.
 
+Scraper contains the script used to scrape the game stats from sports-reference.com. From the game stats I simulated the season updating the Elo for each team after each game. I iterated over the season 200 times for more accurate Elo ratings. With this data I then used Bracket to simulate the tournament matchups.
+
 ## Output Example
 
 Round 1 Game 1  
